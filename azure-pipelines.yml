@@ -78,7 +78,7 @@ stages:
           steps:
           - download: current
             artifact: drop
-          - task: AzureWebApp@1
+          - task: tailspin-space-game-web-1234
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
